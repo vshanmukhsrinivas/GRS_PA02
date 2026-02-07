@@ -1,15 +1,4 @@
-/**************************************************************
-MT25001_Part_A2_Server.c
-One-Copy Implementation using sendmsg()
 
-Server:
-- Accepts multiple clients
-- One thread per client
-- Receives request
-- Sends structured response (8 fields) using sendmsg()
-
-Roll No: MT25001
-**************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
