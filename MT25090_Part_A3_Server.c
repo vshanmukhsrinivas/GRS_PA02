@@ -1,17 +1,3 @@
-/**************************************************************
-MT25001_Part_A3_Server.c
-Zero-Copy Implementation using MSG_ZEROCOPY
-
-Server:
-- Accepts multiple clients
-- One thread per client
-- Receives request
-- Sends structured response using sendmsg() + MSG_ZEROCOPY
-
-Roll No: MT25001
-**************************************************************/
-
-//#define _GNU_SOURCE
 
 #include <stdio.h>
 #include <stdlib.h>
