@@ -1,15 +1,4 @@
-/**************************************************************
-MT25090_Part_A_Client.c
-Common Client for A1, A2, A3
 
-Measures:
-- TOTAL_BYTES
-- TOTAL_REQUESTS
-- TOTAL_TIME
-
-Includes proper error handling.
-
-**************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
