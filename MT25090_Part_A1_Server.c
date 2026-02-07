@@ -1,15 +1,4 @@
-/**************************************************************
-MT25001_Part_A1_Server.c
-Two-Copy Implementation (send/recv)
 
-Server:
-- Accepts multiple clients
-- One thread per client
-- Receives request
-- Sends structured response (8 heap-allocated fields)
-
-Roll No: MT25001
-**************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
